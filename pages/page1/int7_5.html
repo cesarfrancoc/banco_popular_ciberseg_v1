@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<html lang="en" class="no-js" width="auto" style="overflow:hidden">
+<head>
+<meta charset="UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="../../index.css">
+<link href="../../fonts/font-awesome/css/all.css" rel="stylesheet">
+<script src="../../principal.js"></script> 
+<script src="../../cjs/jquery-1.7.2.min.js"></script> 
+<script src="../../cjs/jquery-ui.min.js"></script> 
+<script src="../../cjs/jquery.ui.touch-punch.min.js"></script> 
+<script type="text/javascript">
+
+
+
+    function init() {
+      preguntaSeleccion(1,3);
+
+    }
+
+    </script>
+</head>
+
+<body  onload="init()">
+<div id="escena" class="escena">
+  <div id="instruccion_interna" class="instruccion_interna"> Seleccione la opción correcta. </div>
+  <div class="txt_c">
+    <div>Un cliente informa que ha recibido un mensaje de texto (SMS) por parte del Banco Popular, en el cual le indican que ha ganado un premio representado en dinero y que solo le será abonado a su cuenta de ahorros si accede al enlace que se encuentra en el SMS. ¿Qué instrucciones le daría al cliente? </div>
+  </div>
+  <div class="opciones_preg">
+    <div id="correcto0" class="opcion_preg">Que trate de reconocer el código del remite del mensaje y verifique si corresponde al Banco Popular, para ello NO debe hacerlo ingresando a la página a la cual lo conduce el enlace que viene dentro del SMS. </div>
+    <div id="incorrecto0" class="opcion_preg">Que haga clic en el enlace que recibió a través del SMS, para validar la página web en donde se encuentran 
+      las condiciones para reclamar el premio. </div>
+    <div id="incorrecto1" class="opcion_preg">Que copie el enlace que recibió a través del SMS e intente abrirlo desde un computador, allí podrá revisarlo con mayor detalle e interactuar dentro de la página que abrió. </div>
+    <div id="incorrecto2" class="opcion_preg">Que trate de reconocer el código del remite del mensaje y verifique si corresponde al Banco Popular, para ello puede hacerlo ingresando a la página a la cual lo conduce el enlace que viene dentro del SMS. </div>
+  </div>
+</div>
+<div class="reto_pev"  data-ancho="0"></div>
+</body>
+</html>

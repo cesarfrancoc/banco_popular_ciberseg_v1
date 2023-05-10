@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<html lang="en" class="no-js" width="auto" style="overflow:hidden">
+<head>
+<meta charset="UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="../../index.css">
+<link href="../../fonts/font-awesome/css/all.css" rel="stylesheet">
+<script src="../../principal.js"></script> 
+<script src="../../cjs/jquery-1.7.2.min.js"></script> 
+<script src="../../cjs/jquery-ui.min.js"></script> 
+<script src="../../cjs/jquery.ui.touch-punch.min.js"></script> 
+<script type="text/javascript">
+
+
+
+    function init() {
+      preguntaSeleccion(1,3);
+
+    }
+
+    </script>
+</head>
+
+<body  onload="init()">
+<div id="escena" class="escena">
+  <div id="instruccion_interna" class="instruccion_interna"> Seleccione la opción correcta. </div>
+  <div class="txt_c">
+    <div>Si recibes un correo electrónico y en el cuerpo del mensaje contiene un enlace, al hacer clic en este se abre un portal web para cambiar tu contraseña de red e ingresar a los distintos sistemas del Banco Popular. La dirección web del enlace es: https://https://account.activedirectory.banpopularc.om.co/ChangePassword.aspx. ¿Cuál sería la acción que ejecutarías? </div>
+  </div>
+  <div class="opciones_preg">
+    <div id="incorrecto0" class="opcion_preg">Ingresar al portal web y asignar una contraseña fuerte y robusta, que cumpla con las políticas de seguridad del Banco. </div>
+    <div id="incorrecto1" class="opcion_preg"> Ingresar al portal web y, antes de realizar el cambio de contraseña, enviar el mensaje al área de Seguridad Financiera para su análisis; para esto hago uso del botón "Informar sobre correo de SPAM". </div>
+    <div id="incorrecto2" class="opcion_preg"> Revisar el dominio de la dirección web del enlace y comprobar si es una dirección válida, para esto, basta con abrir dicha dirección en un navegador que esté en modo "Incógnito", y reportar el mensaje al área de Seguridad Física mediante el uso del botón "Informar sobre correo de PHISHING“. </div>
+    <div id="correcto0" class="opcion_preg">Revisar el dominio de la dirección web del enlace y comprobar si es una dirección válida, para esto, no abrir
+      dicha dirección en un navegador que esté en modo "Incógnito", y reportar el mensaje al área de
+      Seguridad de la Información mediante el uso del botón "Informar sobre correo de PHISHING“. </div>
+  </div>
+</div>
+<div class="reto_pev"  data-ancho="0"></div>
+</body>
+</html>
